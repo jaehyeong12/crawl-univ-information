@@ -1,8 +1,4 @@
 
-
-
-
-
 fun main() {
     val crawl = Crawl()
     val save = Save()
