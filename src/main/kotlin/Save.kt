@@ -1,5 +1,3 @@
-package com.demo
-
 import java.sql.DriverManager
 
 class Save {
