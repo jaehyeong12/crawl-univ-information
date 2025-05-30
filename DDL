@@ -19,9 +19,9 @@ INSERT INTO schedule (id, from_date, to_date, description) VALUES (11, TO_DATE('
 INSERT INTO schedule (id, from_date, to_date, description) VALUES (12, TO_DATE('2025-06-27', 'YYYY-MM-DD'), NULL, '방학 시작');
 
 CREATE TABLE daily_menu (
-    day VARCHAR2(10),
-    menu1 VARCHAR2(50),
-    menu2 VARCHAR2(50)
+    day VARCHAR2(100),
+    menu1 VARCHAR2(100),
+    menu2 VARCHAR2(100)
 );
 INSERT INTO daily_menu VALUES ('월', '돈육순대볶음 (돼지:미국산)', '김치볶음밥+계란후라이');
 INSERT INTO daily_menu VALUES ('화', '큐브스테이크덮밥 (돼지:국산)', '');
@@ -31,8 +31,8 @@ INSERT INTO daily_menu VALUES ('금', '마파두부덮밥 (돼지:국내산)', '
 
 
 CREATE TABLE cafeteria_menu (
-    category VARCHAR2(20),
-    menu VARCHAR2(30)
+    category VARCHAR2(100),
+    menu VARCHAR2(100)
 );
 INSERT INTO cafeteria_menu VALUES ('돈가스', '등심돈가스 (돼지:미국산)');
 INSERT INTO cafeteria_menu VALUES ('돈가스', '고구마치즈돈가스 (돼지:국내산)');
